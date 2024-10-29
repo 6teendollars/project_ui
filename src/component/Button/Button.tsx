@@ -4,7 +4,7 @@ type Props = {
 
  const Button:React.FC<Props> = ({ text }) => {
   return (
-	<div>Button</div>
+	<div>{text}</div>
   )
 }
 

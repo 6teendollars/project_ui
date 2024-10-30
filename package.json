@@ -1,6 +1,6 @@
 {
   "name": "@6teendollars/project_ui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A presonalised UI Library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -53,5 +53,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "dependencies": {
+    "deepmerge": "^4.3.1"
   }
 }

@@ -8,6 +8,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/6teendollars"
+  },
   "scripts": {
     "dev": "rollup -c --watch",
     "build": "rollup -c"

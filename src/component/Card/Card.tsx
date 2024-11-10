@@ -13,7 +13,7 @@ const Card: React.FC<CardProps> = ({ variant ,size, imageSrc, children, ...props
 		<div className={`card ${variant === 'available' ? 'card-available' : 'card-unavailable'} card-${size}`} {...props}>
 			{imageSrc && (
 				<div className='card-image-container'>
-					<img src="{imageSrc}" alt="Card Image" className='card-image' />
+					<img src={imageSrc} alt="Card Image" className='card-image' />
 				</div>
 			)}
 			<div className='card-content'>

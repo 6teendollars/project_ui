@@ -41,7 +41,7 @@ export const AvailableImage: Story = {
     args: {
         variant: 'available',
         size: 'small',
-        imageSrc: 'https://vhttps://static.vecteezy.com/system/resources/previews/009/292/244/non_2x/default-avatar-icon-of-social-media-user-vector.jpgia.placeholder.com/300', // Замените на актуальный URL изображения
+        imageSrc: 'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png', // Замените на актуальный URL изображения
         children: 'This is an available card with an image.'
     },
 };

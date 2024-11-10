@@ -4,17 +4,12 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 	variant?: 'primary' | 'secondary';
   }
   
-  const Button: React.FC<ButtonProps> = ({ variant = 'primary', ...props }) => {
-const colorClasses = () => {
-	if (variant == 'primary') return {};
-	if (variant == 'secondary') return {}
-return{}
-}
+  const Button: React.FC<ButtonProps> = ({ variant, children, ...props }) => {
 
 return (
-	<button style={{...colorClasses(), ...props.style }} {...props}>
-		{props.children}
-	</button>
+	<button className={`button ${variant === 'primary' ? 'button-primary' : 'button-secondary'}`} {...props}>
+    {children}
+  </button>
 )
    };
   

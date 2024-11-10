@@ -1,6 +1,6 @@
 import './Card.css'
 import React from 'react'
-
+import Button from '../Button';
 
 export interface CardProps extends React.HTMLAttributes<HTMLDivElement>{
 	variant?: 'available' | 'unavailable';
@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ variant ,size, imageSrc, children, ...props
 			<div className='card-content'>
 			{children}
 			</div>
-		
+		<Button variant='primary' children='Action' size={size}/>
 		</div>
 	)
 };

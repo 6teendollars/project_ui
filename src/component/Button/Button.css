@@ -46,3 +46,23 @@ cursor: not-allowed;
 box-shadow: none;
 
 }
+
+.button-small {
+  font-size: 12px;
+  padding: 8px 16px;
+  /* Размер кнопки уменьшен */
+}
+
+/* Кнопка среднего размера */
+.button-medium {
+  font-size: 14px;
+  padding: 12px 24px;
+  /* Стандартный размер кнопки */
+}
+
+/* Кнопка большого размера */
+.button-large {
+  font-size: 16px;
+  padding: 14px 28px;
+  /* Размер кнопки увеличен */
+}

@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ variant ,size, imageSrc, children, ...props
 			<div className='card-content'>
 			{children}
 			</div>
-		<Button variant='primary' children='Action' size={size}/>
+		<Button  variant='primary' children='Action' size={size}/>
 		</div>
 	)
 };

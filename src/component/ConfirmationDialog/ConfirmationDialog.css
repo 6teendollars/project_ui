@@ -1,0 +1,44 @@
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-box {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+.dialog-message {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.dialog-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog-small .dialog-actions {
+	display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+    align-items: stretch;
+}
+
+.dialog-small .dialog-box {
+    width: 200px;
+}
+.dialog-large .dialog-box {
+    width: 400px;
+}

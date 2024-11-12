@@ -42,9 +42,12 @@
 
 /* Стиль для недоступной карточки */
 .card-unavailable {
-    background-color: rgb(255, 0, 0); /* Красный цвет для недоступной карточки */
-    cursor: not-allowed; /* Указывает, что карточка неактивна */
+    background-color: rgb(255, 255, 255); /* Красный цвет для недоступной карточки */
+    /* cursor: not-allowed; Указывает, что карточка неактивна */
+    opacity: 0.5;
+    pointer-events: none;
 }
+
 
 /* Контент внутри карточки */
 .card-content {
